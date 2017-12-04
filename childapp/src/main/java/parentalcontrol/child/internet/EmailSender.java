@@ -1,4 +1,4 @@
-package parentalcontroller.child.internet;
+package parentalcontrol.child.internet;
 
 /*import parentalcontroller.child.R;
 import android.app.Service;

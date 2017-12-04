@@ -1,4 +1,4 @@
-package parentalcontroller.child.logic;
+package parentalcontrol.child.logic;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

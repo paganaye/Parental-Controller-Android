@@ -1,4 +1,4 @@
-package parentalcontroller.child.file;
+package parentalcontrol.child.file;
 
 import java.io.File;
 import java.io.IOException;

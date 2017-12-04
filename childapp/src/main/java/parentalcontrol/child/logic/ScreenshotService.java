@@ -1,4 +1,4 @@
-package parentalcontroller.child.logic;
+package parentalcontrol.child.logic;
 
 import android.annotation.SuppressLint;
 import android.app.Service;

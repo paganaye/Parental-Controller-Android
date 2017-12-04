@@ -1,4 +1,4 @@
-package parentalcontroller.child.ui;
+package parentalcontrol.child.ui;
 
 
 import android.support.v7.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package parentalcontroller.child.logic;
+package parentalcontrol.child.logic;
 
 import android.app.IntentService;
 import android.content.Intent;

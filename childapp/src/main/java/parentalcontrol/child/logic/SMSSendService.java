@@ -1,6 +1,6 @@
-package parentalcontroller.child.logic;
+package parentalcontrol.child.logic;
 
-import parentalcontroller.child.ui.SMSReceiveActivity;
+import parentalcontrol.child.ui.SMSReceiveActivity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package parentalcontroller.child.internet;
+package parentalcontrol.child.internet;
 
 //import javax.activation.DataHandler;
 //import javax.activation.DataSource;

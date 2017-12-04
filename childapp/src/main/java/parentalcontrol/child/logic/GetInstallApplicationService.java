@@ -1,9 +1,9 @@
-package parentalcontroller.child.logic;
+package parentalcontrol.child.logic;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import parentalcontroller.child.ui.MapViewActivity;
+import parentalcontrol.child.ui.MapViewActivity;
 
 import android.app.ActivityManager;
 import android.app.IntentService;
