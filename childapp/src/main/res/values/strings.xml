@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <string name="hello">Developed by Gihan Chanuka...</string>
-    <string name="app_name">Childroid-4.0.3</string>
+    <string name="app_name">Childroid-5.0</string>
     <string name="smsreceivetopic">SMS receive from Parentdroid</string>
     <string name="smsreceivetxt">Recieved SMS</string>
     <string name="smssendtxt">Sent SMS</string>
