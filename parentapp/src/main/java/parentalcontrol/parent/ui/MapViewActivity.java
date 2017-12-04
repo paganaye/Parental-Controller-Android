@@ -6,10 +6,12 @@ package parentalcontrol.parent.ui;
 //import com.google.android.maps.MapView;
 //import com.google.android.maps.Overlay;
 
-public class MapViewActivity /*extends MapActivity*/ {
-  //Debug
-  private static boolean D = false;
-  private static String TAG = "ParentDroid";
+import android.support.v7.app.AppCompatActivity;
+
+public class MapViewActivity extends AppCompatActivity /*extends MapActivity*/ {
+    //Debug
+    private static boolean D = false;
+    private static String TAG = "ParentDroid";
 //  private MapView mapView;
 //  private MapController mapController;
 //  private GeoPoint geoPoint;

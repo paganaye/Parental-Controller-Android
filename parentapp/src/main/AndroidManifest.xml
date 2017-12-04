@@ -3,7 +3,7 @@
     package="parentalcontrol.parent">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-
+    <uses-sdk android:minSdkVersion="15" />
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -40,9 +40,64 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <!--<activity-->
+        <!--android:name=".MapsActivity"-->
+        <!--android:label="@string/title_activity_maps"></activity>-->
+
         <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:name=".ui.SMSReceiveActivity"
+            android:label="@string/smsreceivetopic"></activity>
+        <activity
+            android:name=".ui.ActionActivity"
+            android:label="@string/smssendtopic"></activity>
+        <activity
+            android:name=".ui.MapViewActivity"
+            android:label="@string/mapviewtopic"></activity>
+
+        <!--<receiver-->
+        <!--android:name=".logic.SMSReceiveService"-->
+        <!--android:enabled="true">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.provider.Telephony.SMS_RECEIVED" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<receiver-->
+        <!--android:name=".PhoneCallReceiver"-->
+        <!--android:enabled="true">-->
+        <!--<intent-filter android:priority="1000">-->
+        <!--<action android:name="android.intent.action.PHONE_STATE" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--<service-->
+            <!--android:name=".internet.EmailSender"-->
+            <!--android:enabled="true" />-->
+        <!--<service android:name=".logic.GetInstallApplicationService" />-->
+        <service android:name=".logic.ShowMSGService" />
+
     </application>
+
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.NETWORK_PROVIDER" />
+    <uses-permission android:name="android.permission.GPS_PROVIDER" />
+    <!--     <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
 
 </manifest>
