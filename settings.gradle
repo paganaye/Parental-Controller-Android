@@ -1,1 +1,1 @@
-include ':parentapp', ':childapp', ':wear', ':tv', ':parentalcontrol.commonlib'
+include ':parentalcontrol.parent', ':parentalcontrol.child', ':parentalcontrol.wear', ':parentalcontrol.common'
