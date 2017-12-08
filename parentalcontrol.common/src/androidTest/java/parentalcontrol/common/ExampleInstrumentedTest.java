@@ -1,4 +1,4 @@
-package parentalcontrol.common;
+package com.ganaye.parentalcontrol.common;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -4,10 +4,11 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "parentalcontrol.parent"
+        applicationId "com.ganaye.parentalcontrol.parent"
         minSdkVersion 17
         targetSdkVersion 26
         versionCode 1
@@ -33,6 +34,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     wearApp project(':parentalcontrol.wear')
-    implementation 'com.google.android.gms:play-services-wearable:+'
     implementation project(':parentalcontrol.common')
 }
+
+apply plugin: 'com.google.gms.google-services'

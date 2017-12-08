@@ -1,4 +1,4 @@
-package parentalcontrol.parent
+package com.ganaye.parentalcontrol.parent
 
 import org.junit.Test
 

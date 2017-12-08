@@ -1,4 +1,4 @@
-package parentalcontrol.child
+package com.ganaye.parentalcontrol.child
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

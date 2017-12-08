@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "273612070054",
+    "firebase_url": "https://parental-control-and.firebaseio.com",
+    "project_id": "parental-control-and",
+    "storage_bucket": "parental-control-and.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273612070054:android:cdfbef109afc5f90",
+        "android_client_info": {
+          "package_name": "com.ganaye.parentalcontrol.parent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273612070054-bvte3pmsbeau842gajh82956aqg9fiu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpy02OdVD4LuTITSjr2jhEKjaIk5kvFuM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273612070054:android:28b787369c21c3f9",
+        "android_client_info": {
+          "package_name": "com.ganaye.parentalcontrol.child"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273612070054-bvte3pmsbeau842gajh82956aqg9fiu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpy02OdVD4LuTITSjr2jhEKjaIk5kvFuM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
